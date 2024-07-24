@@ -2,7 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// 함수로 App 컴포넌트 정의
 function App() {
+  // App 컴포넌트는 HTML 요소를 반환함.
   return (
     <div className="App">
       <header className="App-header">
@@ -10,17 +12,10 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
 }
 
+// 정의한 App을 default로 익스포트 함.
 export default App;
