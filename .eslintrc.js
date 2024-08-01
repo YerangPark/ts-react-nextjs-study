@@ -24,7 +24,8 @@ module.exports = {
     'semi': ['error', 'never'],              // 세미콜론 사용하지 않기
     'quotes': ['error', 'single'],           // 홑따옴표 사용 강제
     'react/react-in-jsx-scope': 'off',       // React 17 이후로 JSX 스코프 문제 해제
-    '@typescript-eslint/no-unused-vars': ['warn'] // 사용되지 않는 변수 경고
+    '@typescript-eslint/no-unused-vars': ['warn'], // 사용되지 않는 변수 경고
+    "react/prop-types": "off"
   },
   settings: {
     react: {

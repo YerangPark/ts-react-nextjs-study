@@ -1,4 +1,5 @@
-import React from "react"
+// 컴포넌트 상속 관계 with TS 예제
+import React from 'react'
 
 // Container의 props 타입을 정의
 type ContainerProps = {

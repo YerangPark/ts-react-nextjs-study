@@ -1,3 +1,4 @@
+// 콜백 함수 예제
 import React from 'react'
 
 // 이름을 입력하기 위한 텍스트 박스를 반환
@@ -7,9 +8,9 @@ const Name = () => {
   }
 
   return (
-    <div style={{padding: '16px', backgroundColor: 'grey'}}>
-        <label htmlFor='name'>이름</label>
-        <input id="name" className='input-name' type='text' onChange={onChange}/>
+    <div style={{ padding: '16px', backgroundColor: 'grey' }}>
+      <label htmlFor="name">이름</label>
+      <input id="name" className="input-name" type="text" onChange={onChange} />
     </div>
   )
 }

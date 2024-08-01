@@ -7,6 +7,9 @@ import Hello from './components/Hello'
 import Name from './components/Name'
 import Message from './components/Message'
 import Parent from './components/ContainerSample'
+import Parent2 from './components/Memo'
+import Parent3 from './components/FuncMemo'
+import UseMemoSample from './components/UseMemo'
 
 // 웹 페이지에 리액트로 생성한 내용을 표시하려면, ReactDOM.createRoot에 컨테이너를 전달해
 // root 객체를 작성하고, render 메서드에 요소를 전달하면 된다.
@@ -22,6 +25,9 @@ root.render(
     <Name />
     <Message />
     <Parent />
+    <Parent2 />
+    <Parent3 />
+    <UseMemoSample />
   </React.StrictMode>
 )
 
